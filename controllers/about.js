@@ -1,10 +1,9 @@
-// const { about } = require('../data/about.json')
-// const data = JSON.stringify(about)
-// console.log(about)
-// console.log(data)
+const about = require('../data/about.json')
+console.log(about)
+
 exports.about = async (req, res) => {
     res.render('pages/about', {
         title: "About page",
-        // about
+        about
     })
 }

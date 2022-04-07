@@ -2,12 +2,13 @@ const express = require('express')
 const app = express();
 const PORT = process.env.PORT || 1234
 
-app.use(express.static("public"))
+app.use(express.static("public")) //public folder
 
 //EJS
 app.set('view engine', 'ejs') //connecting ejs
 console.log(app.get('view engine'))
-// app.set('views')
+
+//ROUTER
 const index = require('./router')
 const about = require('./router/about')
 

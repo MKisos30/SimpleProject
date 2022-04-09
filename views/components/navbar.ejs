@@ -1,0 +1,16 @@
+<nav>
+    <div>
+        <a href="">עמוד הבית</a>
+        <a href="">אודות</a>
+    </div>
+    <div>
+        <% if (mainPage) { %>
+            <a href="tel:<%- mainPage.contact[0].phone %>">
+                <img src="<%- mainPage.contact[0].icon%>" alt="<%mainPage.contact[0].icon%>">
+            </a>
+            <a href="mailto:">
+
+            </a>
+            <% } %>
+    </div>
+</nav>

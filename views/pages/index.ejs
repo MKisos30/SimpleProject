@@ -6,15 +6,20 @@
 </head>
 
 <body>
-    <h1>THIS IS HOME PAGEEEEE!!!!!!!111</h1>
+    <% if (mainPage) { %>
+        <%- include('../components/navbar', {mainPage}) %>
 
-    <% if (places) { %>
-        <% places.forEach(place=> { %>
-            <div>
-                <%- include ('../components/place.ejs', {place}) %>
-            </div>
-            <% }) %>
-                <% } %>
+
+            <% } %>
+
+
+                <% if (places) { %>
+                    <% places.forEach(place=> { %>
+                        <div>
+                            <%- include ('../components/place.ejs', {place}) %>
+                        </div>
+                        <% }) %>
+                            <% } %>
 </body>
 
 </html>

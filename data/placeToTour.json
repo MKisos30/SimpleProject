@@ -1,66 +1,75 @@
-[
-    {
-        "id": "",
-        "nameOfPlace": "",
-        "mainPicture": "",
-        "descOfPlace": "",
-        "pictures": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "aptnessAge": "",
-        "placeInCountry": "",
-        "animals": "",
-        "website": ""
-    },
-    {
-        "id": "",
-        "nameOfPlace": "",
-        "mainPicture": "",
-        "descOfPlace": "",
-        "pictures": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "aptnessAge": "",
-        "placeInCountry": "",
-        "animals": "",
-        "website": ""
-    },
-    {
-        "id": "",
-        "nameOfPlace": "",
-        "mainPicture": "",
-        "descOfPlace": "",
-        "pictures": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "aptnessAge": "",
-        "placeInCountry": "",
-        "animals": "",
-        "website": ""
-    },
-    {
-        "id": "",
-        "nameOfPlace": "",
-        "mainPicture": "",
-        "descOfPlace": "",
-        "pictures": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "aptnessAge": "",
-        "placeInCountry": "",
-        "animals": "",
-        "website": ""
-    }
-]
+{
+    "data": [
+        {
+            "id": "nahalhaedra123",
+            "nameOfPlace": "נחל חדרה",
+            "mainPicture": "./images/places/haderaRiver/bigPic.jpeg",
+            "descOfPlace": [
+                "נחל חדרה מתחיל את דרכו בגבעות הרי השומרון, זורם דרך מישור החוף, ונשפך לים מצפון לגבעת אולגה. הפיתוח המואץ בסביבת הנחל גרם לזיהומו ולהפיכת חלקו התחתון למפגע אקולוגי חמור.",
+                "לאחר בניית תחנת כוח בסמוך לחוף הים מצפון לשפך נחל חדרה הוחלט לשקם את הקטע המערבי של הנחל המשתרע בין כביש החוף לבין שפך הנחל לים. הנחל המזוהם הפך מקו דק ומתפתל של מים מזוהמים לנחל נקי וישר שרוחבו 40 מטרים. קק'ל הכשירה סביב קטע זה פארק מרהיב והיא מבצעת עבודות שיקום ופיתוח גם בחלקו העליון של הנחל."
+            ],
+            "pictures": [
+                "./images/places/haderaRiver/1.jpeg",
+                "./images/places/haderaRiver/2.jpeg",
+                "./images/places/haderaRiver/3.jpeg",
+                "./images/places/haderaRiver/4.jpeg"
+            ],
+            "aptnessAge": "",
+            "placeInCountry": "",
+            "animals": "",
+            "website": ""
+        },
+        {
+            "id": "yaarHulda123",
+            "nameOfPlace": "יער חולדה - בית הרצל",
+            "mainPicture": "./images/places/ratForest/bigPic.jpeg",
+            "descOfPlace": "בזכות מה שהחל בחולדה נולד מפעל הייעור של קק''ל והנוף הירוק נעשה מובן מאליו לכולנו עד היום. לאחר מותו של הרצל, ב-1904 הוחלט לטעת בחולדה יער לזכרו ובמרכזו בית על שמו. במלאת 50 למדינה הוחלט לשקם 50 אתרים היסטוריים, ובהם בית הרצל. השיקום בוצע בסיוע ידידי קק''ל בקנדה ובארה''ב ובשיתוף המועצה לשימור אתרי התיישבות ורשות הטבע והגנים, וכלל הקמת מיצגים המתארים פרקים בתולדות האתר ותצוגה בבית הרצל ושיקום האנדרטה לזכר אפרים צ'יזיק שנפל על הגנתו במאורעות תרפ''ט.",
+            "pictures": [
+                "./images/places/ratForest/1.jpeg",
+                "./images/places/ratForest/2.jpeg",
+                "./images/places/ratForest/3.jpeg",
+                "./images/places/ratForest/4.jpeg"
+            ],
+            "aptnessAge": "",
+            "placeInCountry": "",
+            "animals": "",
+            "website": ""
+        },
+        {
+            "id": "yaarHofCarmel123",
+            "nameOfPlace": "יער חוף הכרמל",
+            "mainPicture": "./images/places/hacarmelForest/bigPic.jpeg",
+            "descOfPlace": "יער חוף הכרמל מכסה את המורדות המערביים של הכרמל, בין כפר הנוער מאיר שפיה בדרום ונחל מערות בצפון. מדרונות היער, המשתרע על פני כ-10,000 דונם, משקיפים על הנוף המרהיב של מישור חוף הכרמל והים. זהו מקום נפלא לבילוי ולטיול בחיק הטבע, מרחב שבו עצי החורש משתלבים ביער הנטוע, עם מבחר גדול של חניונים, תצפיות מרהיבות, דרכי נוף, שבילי הליכה למטיילים ושבילי אופניים.",
+            "pictures": [
+                "./images/places/hacarmelForest/1.jpeg",
+                "./images/places/hacarmelForest/2.jpeg",
+                "./images/places/hacarmelForest/3.jpeg",
+                "./images/places/hacarmelForest/4.jpeg"
+            ],
+            "aptnessAge": "",
+            "placeInCountry": "",
+            "animals": "",
+            "website": ""
+        },
+        {
+            "id": "derehshalomarava123",
+            "nameOfPlace": "דרך השלום בערבה",
+            "mainPicture": "./images/places/peaceWay/bigPic.jpeg",
+            "descOfPlace": [
+                "דרך השלום היא שמו של נתיב נסיעה מרתק, העובר לאורך הגבול שבין מדינת ישראל לממלכת ירדן. לאורך הדרך יכולים המטיילים ליהנות ממראה השדות החקלאיים של המושבים עידן, חצבה ועין יהב, ממצפורי נוף הצופים לעבר נופי נחל הערבה והרי אדום, ממראה מאגרי המים המרווים את שדות הערבה ומסיורים בבתרונות הציוריים של סלעי חוואר הלשון.",
+                "הגבול בין ישראל לממלכת ירדן נקבע לראשונה בימי המנדט (1922). בגזרה של דרך השלום הותווה הקו המפריד במרכז נחל הערבה. בהסכם השלום עם ירדן (1994) התברר שחלק משדות המושבים חצבה ועידן שוכנים מעבר לנחל הערבה.            ",
+                "אבל, כשרוצים שלום, שום דבר אינו עומד למכשול. הירדנים קיבלו שטחים חלופיים בתמורה לשטחים החקלאיים של היישובים הישראליים שנשארו בידיהם. סיור בדרך השלום ממחיש היטב את הדבר.            "
+            ],
+            "pictures": [
+                "./images/places/peaceWay/1.jpeg",
+                "./images/places/peaceWay/2.jpeg",
+                "./images/places/peaceWay/3.jpeg",
+                "./images/places/peaceWay/4.jpeg"
+            ],
+            "aptnessAge": "",
+            "placeInCountry": "",
+            "animals": "",
+            "website": ""
+        }
+    ]
+}

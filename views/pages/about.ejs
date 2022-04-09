@@ -9,7 +9,11 @@
     <h1>THIS IS ABOUT PAGEEEEE!!!!!!!111</h1>
     <!-- <%# console.log(about) %> -->
     <div dir="rtl">
-        <%- about.desc.join('') %>
+        <% about.desc.forEach(elem=> { %>
+            <p>
+                <%- elem %>
+            </p>
+            <% }) %>
 
     </div>
 </body>

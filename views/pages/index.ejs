@@ -3,15 +3,20 @@
 
 <head>
     <%- include('../components/head') %>
+        <link rel="stylesheet" href="../style/dist/index.css">
 </head>
 
 <body>
     <% if (mainPage) { %>
         <%- include('../components/navbar', {mainPage}) %>
 
-
+            <div>
+                <img src="<%- mainPage.mainPics%>" alt="mainPage">
+                <p>
+                    <%- mainPage.desc%>
+                </p>
+            </div>
             <% } %>
-
 
                 <% if (places) { %>
                     <% places.forEach(place=> { %>
@@ -20,6 +25,8 @@
                         </div>
                         <% }) %>
                             <% } %>
+
+                                <%- include('../components/footer') %>
 </body>
 
 </html>

@@ -1,13 +1,10 @@
-<h1>hahaha</h1>
 <div>
     <% if (place) { %>
-        <%# console.log(place.id) %>
-            <a href="/places/<%- place.id%>">
-                <%- place.nameOfPlace %>
-                    <div>
-
-                        <img src="<%- place.pictures[0] %>" alt="" />
-                    </div>
-            </a>
-            <% } %>
+        <a href="/<%- place.id%>">
+            <%- place.nameOfPlace %>
+                <div>
+                    <img src="<%- place.pictures[0] %>" alt="" />
+                </div>
+        </a>
+        <% } %>
 </div>

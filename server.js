@@ -15,7 +15,7 @@ const places = require('./router/places')
 
 app.use('/', index)
 app.use('/about', about)
-app.use('/places', places)
+app.use('/', places)
 
 app.listen(PORT, () => {
     console.log(`listner on http://localhost:${PORT}`)

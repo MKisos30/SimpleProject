@@ -1,6 +1,26 @@
-<h1>hahaha11111: id</h1>
-<div>
-    <% if (place) { %>
-        <%- place.nameOfPlace %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../components/head') %>
+        <link rel="stylesheet" href="../style/dist/index.css">
+</head>
+
+<body>
+    <% if (mainPage) { %>
+        <%- include('../components/navbar', {mainPage}) %>
             <% } %>
-</div>
+
+                <div>
+
+                    <% if (place) { %>
+                        <h1>
+                            <%- place.nameOfPlace %>
+                        </h1>
+                        <img src="<%- place.mainPicture %>" alt="<%- place.nameOfPlace %>">/
+                        <% } %>
+                </div>
+                <%- include('../components/footer') %>
+</body>
+
+</html>

@@ -1,21 +1,22 @@
-<nav>
-    <div>
-        <a href="">עמוד הבית</a>
-        <a href="">אודות</a>
+<nav class="navBar">
+    <div class="navBar__navig">
+        <a href="/" class="navBar__navig--btn">עמוד הבית</a>
+        <a href="/about" class="navBar__navig--btn">אודות</a>
     </div>
-    <div>
+
+    <div class="navBar__contact">
         <% if (mainPage) { %>
-            <a href="tel:<%- mainPage.contact[0].phone %>">
-                <img src="<%- mainPage.contact[0].icon%>" alt="<%mainPage.contact[0].icon%>">
+            <a href="tel:<%- mainPage.contact[0].phone %>" class="navBar__contact--btn">
+                <img src="<%- mainPage.contact[0].icon%>" alt="<%- mainPage.contact[0].icon%>">
             </a>
-            <a href="<%- mainPage.contact[1].youtube %>">
-                <img src="<%- mainPage.contact[1].icon%>" alt="<%mainPage.contact[1].icon%>">
+            <a href="<%- mainPage.contact[1].youtube %>" class="navBar__contact--btn">
+                <img src="<%- mainPage.contact[1].icon%>" alt="<%- mainPage.contact[1].icon%>">
             </a>
-            <a href="<%- mainPage.contact[2].facebook %>">
-                <img src="<%- mainPage.contact[2].icon%>" alt="<%mainPage.contact[2].icon%>">
+            <a href="<%- mainPage.contact[2].facebook %>" class="navBar__contact--btn">
+                <img src="<%- mainPage.contact[2].icon%>" alt="<%- mainPage.contact[2].icon%>">
             </a>
-            <a href="mailto:<%- mainPage.contact[3].mail %>">
-                <img src="<%- mainPage.contact[3].icon%>" alt="<%mainPage.contact[3].icon%>">
+            <a href="mailto:<%- mainPage.contact[3].mail %>" class="navBar__contact--btn">
+                <img src="<%- mainPage.contact[3].icon%>" alt="<%- mainPage.contact[3].icon%>">
             </a>
             <% } %>
     </div>

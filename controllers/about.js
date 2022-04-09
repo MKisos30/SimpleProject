@@ -1,9 +1,10 @@
 const about = require('../data/about.json')
-// console.log(about)
+const mainPage = require('../data/mainPage.json')
 
 exports.about = async (req, res) => {
     res.render('pages/about', {
-        title: "About page",
-        about
+        title: "אודות",
+        about,
+        mainPage
     })
 }

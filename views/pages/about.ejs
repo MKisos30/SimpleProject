@@ -3,19 +3,24 @@
 
 <head>
     <%- include('../components/head') %>
+        <link rel="stylesheet" href="../style/dist/index.css">
 </head>
 
 <body>
-    <h1>THIS IS ABOUT PAGEEEEE!!!!!!!111</h1>
-    <!-- <%# console.log(about) %> -->
-    <div dir="rtl">
-        <% about.desc.forEach(elem=> { %>
-            <p>
-                <%- elem %>
-            </p>
-            <% }) %>
+    <% if (mainPage) { %>
+        <%- include('../components/navbar', {mainPage}) %>
+            <% } %>
 
-    </div>
+                <div dir="rtl">
+                    <% about.desc.forEach(elem=> { %>
+                        <p>
+                            <%- elem %>
+                        </p>
+                        <% }) %>
+
+                </div>
+
+                <%- include('../components/footer') %>
 </body>
 
 </html>

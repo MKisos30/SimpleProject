@@ -10,9 +10,9 @@
     <% if (mainPage) { %>
         <%- include('../components/navbar', {mainPage}) %>
 
-            <div>
-                <img src="<%- mainPage.mainPics%>" alt="mainPage">
-                <p>
+            <div class="homePage-infoGrid">
+                <img class="homePage-infoGrid__img" src="<%- mainPage.mainPics%>" alt="mainPage">
+                <p class="homePage-infoGrid__des">
                     <%- mainPage.desc%>
                 </p>
             </div>

@@ -11,15 +11,45 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  background-color: salmon;
 }
 .navBar__navig {
   display: flex;
   flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
 }
 .navBar__contact {
   display: flex;
   flex-direction: row;
+  width: 80%;
+  justify-content: flex-end;
+}
+.navBar__contact a {
+  width: 20%;
 }
 .navBar__contact img {
-  width: 100%;
+  width: 80%;
+  height: 100%;
+}
+
+.homePage-infoGrid {
+  position: relative;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(180deg, black 0%, whitesmoke 100%); */
+}
+.homePage-infoGrid__img {
+  position: absolute;
+  height: 100%;
+}
+.homePage-infoGrid__des {
+  position: absolute;
+  color: white;
+  font-size: 1.2em;
+  bottom: 2%;
+  width: 95%;
+  left: 2%;
 }
